@@ -12,7 +12,7 @@ Implementation of a supervised learning algorithm (regression) to predict buildi
 * Hyperparameters optimisation (GridSearchCV)
 * Feature importance study (RFE Sklearn function + RFE Homemade function)
 
-Dataset used : https://www.kaggle.com/city-of-seattle/sea-building-energy-benchmarking#2015-building-energy-benchmarking.csv
+Dataset used : <a href='https://www.kaggle.com/city-of-seattle/sea-building-energy-benchmarking#2015-building-energy-benchmarking.csv'>Data Seattle</a>
 
 ## Assessed Skills:
 
