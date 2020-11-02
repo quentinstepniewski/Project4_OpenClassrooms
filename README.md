@@ -7,7 +7,7 @@
 
 Implementation of a supervised learning algorithm (regression) to predict building energy consumption in Seattle:
 
-* Creation ofr a data cleaning pipeline
+* Creation of a data cleaning pipeline
 * Training (with crossvalidation) and compare several algorithm (Lasso/Ridge, SupportVectorRegressor, MLPRegressor, RandomForest, GradientBoosting)
 * Hyperparameters optimisation (GridSearchCV)
 * Feature importance study (RFE Sklearn function + RFE Homemade function)
