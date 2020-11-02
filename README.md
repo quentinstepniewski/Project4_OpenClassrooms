@@ -8,9 +8,9 @@
 Implementation of a supervised learning algorithm (regression) to predict building energy consumption in Seattle:
 
 * Creation of a data cleaning pipeline
-* Train (with crossvalidation) and compare several algorithm (Lasso/Ridge, SupportVectorRegressor, MLPRegressor, RandomForest, GradientBoosting)
+* Train (with crossvalidation) and compare several algorithms (Lasso/Ridge, SupportVectorRegressor, MLPRegressor, RandomForest, GradientBoosting)
 * Hyperparameters optimisation (GridSearchCV)
-* Feature importance study (RFE Sklearn function + RFE Homemade function)
+* Feature importances study (RFE Sklearn function + RFE Homemade function)
 
 Dataset used : <a href='https://www.kaggle.com/city-of-seattle/sea-building-energy-benchmarking#2015-building-energy-benchmarking.csv'>Data Seattle</a>
 
@@ -19,5 +19,5 @@ Dataset used : <a href='https://www.kaggle.com/city-of-seattle/sea-building-ener
 * Transform features appropriately to use them in a supervised learning algorithm
 * Tune hyperparameters of an algorithm to enhance its performance
 * Evaluate performances of a supervised algorithm
-* Implement a sector-specific relevent machine learning model
+* Implement a sector-specific relevant machine learning model
 
