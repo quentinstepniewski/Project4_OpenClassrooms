@@ -5,19 +5,19 @@
 
 ## Project Description:
 
-Data-manipulation project based on OpenFoodFacts data (nutriscore)
+Implementation of a supervised learning algorithm (regression) to predict building energy consumption in Seattle:
 
-Univariate and multivariate analysis
+* Creation ofr a data cleaning pipeline
+* Training (with crossvalidation) and compare several algorithm (Lasso/Ridge, SupportVectorRegressor, MLPRegressor, RandomForest, GradientBoosting)
+* Hyperparameters optimisation (GridSearchCV)
+* Feature importance study (RFE Sklearn function + RFE Homemade function)
 
-Data cleaning (nan, outliers, imputation)
-
-First approach with regression (linear regression, KNN, crossvalidation, GridSearchCV)
-
-Dataset used : https://world.openfoodfacts.org/data
+Dataset used : https://www.kaggle.com/city-of-seattle/sea-building-energy-benchmarking#2015-building-energy-benchmarking.csv
 
 ## Assessed Skills:
 
-* Perform univariate analysis 
-* Represent results thanks to clear and relevant graphs
-* Perform cleaning operations on structured dataset
-* Perform multivariate analysis
+* Transform features appropriately to use them in a supervised learning algorithm
+* Tune hyperparameters of an algorithm to enhance its performance
+* Evaluate performances of a supervised algorithm
+* Implement a sector-specific relevent machine learning model
+
